@@ -1,0 +1,12 @@
+﻿GoF'a göre, Observer tasarım deseninin amacı;
+
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
+Nesneler arasında birden çoğa bağımlılık tanımlayın, böylece bir nesne durum değiştirdiğinde, tüm bağımlıları otomatik olarak bilgilendirilir ve güncellenir.
+
+Bu pattern nesnenin durumunu/davranışlarını inceler ve ona göre operasyon/lar geliştirir. Gerçek hayattan örnek verecek olursak, bir borsa app yapısını düşünebilirsiniz x bir firmanın hissesisin düşüşüne veya yükselişine göre kullanıcılarınızı otomatik olarak uyaracak ve kullanıcılarınız gelişen duruma göre alım/satım yapacaktır. Burada tabiki de bir yatırımcının birden fazla hissesi ve farklı kullanıcılarda olacaktır. Böyle bir senaryoda app x hissenin durumunu izlemekte olan tüm kullanıcılara duruma göre otomatik olarak bilgilendirecektir. İşte bu senaryo Observer Design Pattern’ı kapsamaktadır.
+
+
+İlk örneğimizi bir makale sitesi gibi düşünebilirsiniz. bir yayınlanan konumuzu (subject) olacak ve o konunun takipçileri olacak (Observer). Konuya yeni bir mesaj gönderildiğinde tüm kayıtlı kullanıcılar bilgilendirilecek.
+
+İkinci örneğimiz ise bir kitapçının takip listesine kayıt olmak gibi düşünebilirsiniz.  Kitapçı takibinidek kullanıcı listesine yeni bir kitap eklediği an mesaj ile bilgilendirecektir.

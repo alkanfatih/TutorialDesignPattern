@@ -1,0 +1,5 @@
+﻿Design Pattern, sınıfın yapısında değişikliğe gidilmeksizin belirli bir nesneye veya bazı nesnelere yeni ek fonksiyon ve özelliklerin dinamik olarak eklenmesi amacıyla kullanılmaktadır. Burada ki önemli ayrıntı yeni özelliğin sınıfa değil de belir bir nesneye kazandırılıyor olmasıdır. Ve aynı sınıftan üretilen diğer nesneler bu dekorasyondan etkilenmezler.
+
+İlk örneğimizdeki senaryo şu şekilde: LoginWindow ve ReportWindow class'larımızı kullanarak kullanacıya işlemlere göre farklı pencereler göstermek ve bu pencerelerin her birine ThemeDecorator class'ını kullanarak farklı temaların uygulanmasını Decorator Design pattern üzerinden nasıl uygullanacağını göstermek istedik.
+
+İkinci örneğimizde temel bir araba class üzerinden sedan veya suv modelinde araba nesnesi üretip. Ürettiğimiz araba modelerine base fiyatlarını değiştirmeden HireOffer üzerinden yeni bir indirim özelliği kazandırdık.

@@ -1,0 +1,8 @@
+﻿Birden fazla sub-class (alt sınıf) sahip olduğunuz bir super-class (üst-sınıf) olduğu senaryolarda girdiye dayalı olarak alt sınıflarımızdan birini döndürmeniz gerektiğinde Factory Method Design Pattern kullanılır.
+
+Factory Method Pattern, nesnelerin nerede yaratılacağı sorununu çözer. Nesnelerin yaratılmalarını soyutlar ve bu işi istemci kodlarından çıkarıp üretici veya factory metotlara havale eder.
+
+Factory method ise nesnelerin yaratılmasından sorumlu bir metottur öyle ki bir arayüzde tanımlanır ve alt sınıflarda gerçekleştirilir.
+
+LAB_1, Bu senaryomuzda soyut bir class üzerinden factory methodu dizayn ederek  girdiye göre farklı tiplerde bilgisayarlar üreten bir program yapısı kurgulayacağız.
+

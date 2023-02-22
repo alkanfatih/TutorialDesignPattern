@@ -1,0 +1,3 @@
+﻿Prototype Design Pattern (Prototip Tasarım Deseni), nesne oluşturma işlemi maliyetli ve çok fazla zaman/kaynak gerektiren bir iş olduğundan dolayı yeni bir nesne oluşturmak yerine halihazırda benzer bir nesneyi kullanmak istediğimiz zamanda kullanılır.
+
+Bu başlık altında iki adet örneğimiz bulunmakta 1. Öğreneğimizde System.ICloneable interface'inden faydalanarak pattern'ı gerçekleştirdik 2. örneğimizde ise pattern uygulamak için kendi soyut sınıfımızı oluşturduk.

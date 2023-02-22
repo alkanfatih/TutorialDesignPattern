@@ -1,0 +1,7 @@
+﻿Chain of Responsibility Design Pattern (Sorumluluk zinciri modeli), müşteriden gelen bir talebin bunları işlemek için bir nesneler zincirine iletildiği yazılım tasarımında gevşek bağlantı (loose coupling) elde etmek için kullanılır. Daha sonra zincirdeki nesne, talebi kimin işleyeceğine ve talebin zincirdeki bir sonraki nesneye gönderilmesi gerekip gerekmediğine kendisi karar verecektir.
+
+Örnek 1'de ATM makinasi örneği geliştireceğiz. Kullanıcı çekmek istediği miktarı ATM’ye girdiğinde ATM ödemeyi önceden tanımlı olan 10TL, 20TL, 50TL cinslerinden gerçekleştirecektir. Girilen miktar doğrultusunda elinde ki cinslerden dağıtım yapacaktır. 10’un katı olamayan bir değer girilirse işlemi gerçekleştiremeyecektir. 
+
+Dağıtım zinciri şu şekilde gerçekleşecektir: 50 - - > 20 - - > 10
+
+Örnek 2'de türüne göre video handler eden bir program senaryasou işlendi

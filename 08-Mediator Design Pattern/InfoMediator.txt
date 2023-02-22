@@ -1,0 +1,11 @@
+﻿GoF'ye göre, Medaitor tasarım deseninin amacı;
+
+Allows loose coupling by encapsulating the way disparate sets of objects interact and communicate with each other. Allows for the actions of each object set to vary independently of one another.
+
+Farklı nesne gruplarının birbirleriyle etkileşim ve iletişim kurma şeklini özetleyerek gevşek bağlantıya (loose coupling) izin verir. Her nesne kümesinin eylemlerinin birbirinden bağımsız olarak değişmesine izin verir.
+
+Mediator tasarım modeli, birden çok nesnenin birbiriyle etkileşime girdiği bir kurumsal uygulamada çok faydalıdır. Nesneler birbirleriyle doğrudan etkileşime girerse, sistem bileşenleri birbiriyle sıkı (tightly-coupled) bir şekilde birleştirilir, bu da daha yüksek bakım maliyeti sağlar ve genişletilmesi zor değildir. Mediator modeli, iletişim için nesneler arasında bir arabulucu sağlamaya ve nesneler arasında gevşek bağlantının (lose-coupling) uygulanmasına yardımcı olmaya odaklanır. Gerçek hayattan bir örnekleme yapacak olursak Hava trafik kontrolü istasyonun farklı uçuşlar arasında ki iletişimi sağlama görevi tam bir Mediator modelidir.
+
+Örnek 1'de  bir sohbet uygulaması senaryosu planladık. Her kullanıcı adıyla tanımlanacak ve mesaj gönderip alabilecek. Herhangi bir kullanıcı tarafından gönderilen mesaj, kendi hariç gruptaki diğer tüm kullanıcılar tarafından alınmalıdır.
+
+Örnek 2'de ise bir öğretmenin öğrencilerine soru sorabileceği ve tüm öğrencilerin o soruya bir cevap verebileceği bir uygulama tasarımı planladık.

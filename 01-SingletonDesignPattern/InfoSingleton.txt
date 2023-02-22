@@ -1,0 +1,9 @@
+﻿Singleton Design Pattern
+Bir sınıfın nesnesinin sadece bir nesne yaratmasını ve sürekli olarak aynı nesnenin kullanılmasını istediğimiz durumlarda tercih ederiz.
+
+Bir sınıftan bir tane nesne olmasından kasıt ise, herkesin istediği zaman bu sınıfın bir nesnesini oluşturmaya çalışmaması oluşturamaması, var olan tek nesneyi kullanmasıdır.
+
+*Bu projede basic, lazy ve multi thread safe singleton modellerinin uygulamaları ile iki adet LAB örneği bulunmaktadır.
+
+*LAB1: 
+
